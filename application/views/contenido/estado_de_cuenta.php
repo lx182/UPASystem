@@ -18,7 +18,7 @@
         </table>
         <br>
         <center>
-            <table id="b_tabla_datos" >
+            <table class="b_tabla_datos_estado_cuenta" >
                 <tr>
                     <th>Concepto</th><th>Vence</th><th>Pago</th><th>Importe</th><th>Recargo</th> <th>Descuento</th><th>Beca</th><th>Pagar</th><th>Recibo</th> 
                 </tr>
