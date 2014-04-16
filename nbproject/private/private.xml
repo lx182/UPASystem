@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>application/views/contenido/headers/header_admin.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>132</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/UPASystem-master/application/views/contenido/body/estado_de_cuenta.php</file>
+            <file>file:/E:/UPASystem-master/application/views/contenido/estado_de_cuenta.php</file>
             <file>file:/E:/UPASystem-master/application/css/styles.css</file>
-            <file>file:/E:/UPASystem-master/application/config/config.php</file>
-            <file>file:/E:/UPASystem-master/application/views/contenido/headers/header_student.php</file>
+            <file>file:/E:/UPASystem-master/application/views/contenido/estado_de_cuenta_admin.php</file>
+            <file>file:/E:/UPASystem-master/application/views/header_admin.php</file>
             <file>file:/E:/UPASystem-master/application/controllers/prueba.php</file>
-            <file>file:/E:/UPASystem-master/application/views/contenido/headers/header_admin.php</file>
         </group>
     </open-files>
 </project-private>

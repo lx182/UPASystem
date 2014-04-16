@@ -168,6 +168,16 @@
     #datos_alumno_admin tr:hover{
         background-color:  skyblue;
     }
+    #cont_cambia_pas{
+        margin-left: 35%;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    #cont_datos_personales{
+        margin-left: 20%;
+        margin-left: 20%;
+        margin-top: 10px;
+    }
     
     
 </style>
