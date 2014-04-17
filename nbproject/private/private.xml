@@ -3,12 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/UPASystem-master/application/views/contenido/body/estado_de_cuenta.php</file>
-            <file>file:/E:/UPASystem-master/application/css/styles.css</file>
-            <file>file:/E:/UPASystem-master/application/config/config.php</file>
-            <file>file:/E:/UPASystem-master/application/views/contenido/headers/header_student.php</file>
-            <file>file:/E:/UPASystem-master/application/controllers/prueba.php</file>
-            <file>file:/E:/UPASystem-master/application/views/contenido/headers/header_admin.php</file>
+            <file>file:/C:/Users/Alejandro/Documents/NetBeansProjects/UPASystem/css/styles.css</file>
+            <file>file:/C:/Users/Alejandro/Documents/NetBeansProjects/UPASystem/application/views/administrador/index.php</file>
+            <file>file:/C:/Users/Alejandro/Documents/NetBeansProjects/UPASystem/application/controllers/prueba.php</file>
+            <file>file:/C:/Users/Alejandro/Documents/NetBeansProjects/UPASystem/application/views/administrador/edoCuenta.php</file>
+            <file>file:/C:/Users/Alejandro/Documents/NetBeansProjects/UPASystem/application/views/header.php</file>
         </group>
     </open-files>
 </project-private>
