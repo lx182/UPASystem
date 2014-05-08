@@ -9,11 +9,14 @@
 <style type="text/css" title="currentStyle">
     @import "<?php echo base_url();?>css/media/css/demo_page.css";
     @import "<?php echo base_url();?>css/media/css/demo_table.css";
+    
 </style>
 
 <script type="text/javascript" language="javascript" src="<?php echo base_url();?>css/media/js/jquery.dataTables.js"></script>
 <script type="text/javascript" charset="utf-8">
     $(document).ready(function() {
+        
+        $('#estadoDeCuenta').addClass('active');
         $('#example').dataTable({
             "oLanguage": {
                 "sUrl": "<?php echo base_url();?>css/media/espaniol.txt"
