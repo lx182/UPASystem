@@ -14,7 +14,7 @@ class Vistas extends CI_Controller {
         if($this->session->userData('matUser')){
             $this->load->view('cajas/index');
         }else{
-                $openid = new LightOpenID('http://localhost/UPA/index.php');
+                $openid = new LightOpenID(base_url().'index.php');
                 $openid->identity = 'https://www.google.com/accounts/o8/id';
                 $openid->required = array(
                     'namePerson/first',
@@ -29,7 +29,7 @@ class Vistas extends CI_Controller {
                 );
         //  $openid->returnUrl = 'http://localhost/login_thirdparty/login_google.php';
 
-            $openid->returnUrl = 'http://localhost/UPA/index.php/vistas/loginAuth';
+            $openid->returnUrl = base_url().'index.php/vistas/loginAuth';
 
         //  echo '<a href="'.$openid->authUrl().'">Login with Google</a>';
 
@@ -42,7 +42,7 @@ class Vistas extends CI_Controller {
 
     public function loginAuth()
     {
-         $openid = new LightOpenID('http://localhost/UPA/index.php');
+         $openid = new LightOpenID(base_url().'/index.php');
 
         if($openid->mode)
         {
