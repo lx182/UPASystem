@@ -54,7 +54,9 @@ class Vistas extends CI_Controller {
             {
                 $data = $openid->getAttributes();
                 $this->session->set_userData('nombre',$data['namePerson/first']." ".$data['namePerson/last']);
-                $this->session->set_userData('matUser', strtoupper( substr($data['contact/email'], 0, 8)));
+                $matricula=explode('@', $data['contact/email']);
+                $nivel=explode('.', $matricula[1]);
+                $this->session->set_userData('matUser', $matricula[0]);
     //          $
                  redirect(base_url()."index.php");
 //              echo "<meta http-equiv = 'refresh' content = '0; url=http://speechwithmilo.com/speechtherapy/adminpanel/'>";
