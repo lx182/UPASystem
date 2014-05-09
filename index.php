@@ -1,8 +1,5 @@
 <?php
 
-/* hese, also change the error_reporting() code below
- *
- */
 	define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
